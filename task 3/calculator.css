@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#calc{
+    background-color: pink;
+    display: grid;
+    width: 27%;
+    height: 80%;
+    border-radius: 20px
+
+
+}
+#nums{
+    width: 90%;
+    height: 125px;
+    margin-top: 48px;
+    margin-left: 20px;
+    font-size: 30px;
+    background-color: whitesmoke;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 7px;
+    height: 60px;
+    color: #ff51a8;
+    background-color: whitesmoke;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color: silver;
+    color: pink;
+}
